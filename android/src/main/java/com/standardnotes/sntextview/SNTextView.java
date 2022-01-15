@@ -246,4 +246,11 @@ public class SNTextView extends LinearLayout {
         }
     }
 
+    public void setMonospace (boolean monospace) {
+        if (monospace)
+            editText.setTypeface(Typeface.MONOSPACE);
+        else
+            editText.setTypeface(Typeface.NORMAL);
+    }
+
 }

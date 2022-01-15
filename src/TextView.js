@@ -56,6 +56,7 @@ TextView.propTypes = {
       'on-drag', // Cross-platform
       'interactive', // iOS-only
     ]),
+  monospace: PropTypes.bool,
   ...TextInput.propTypes
 }
 

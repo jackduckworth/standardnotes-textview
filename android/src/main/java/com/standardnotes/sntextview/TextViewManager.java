@@ -81,6 +81,11 @@ public class TextViewManager extends SimpleViewManager<SNTextView> {
         view.setEditable(editable);
     }
 
+    @ReactProp(name = "monospace")
+    public void setMonospace(SNTextView view, boolean monospace) {
+        view.setMonospace(monospace);
+    }
+
     @ReactMethod
     public void blur(SNTextView view) {
         view.blur();
