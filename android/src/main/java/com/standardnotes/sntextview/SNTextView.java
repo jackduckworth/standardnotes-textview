@@ -2,6 +2,7 @@ package com.standardnotes.sntextview;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Typeface;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import androidx.core.content.ContextCompat;
@@ -250,7 +251,7 @@ public class SNTextView extends LinearLayout {
         if (monospace)
             editText.setTypeface(Typeface.MONOSPACE);
         else
-            editText.setTypeface(Typeface.NORMAL);
+            editText.setTypeface(Typeface.DEFAULT);
     }
 
 }
